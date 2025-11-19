@@ -29,7 +29,6 @@ void servo_initialize(void) {
 
     mcpwm_init(MCPWM_UNIT_0, MCPWM_TIMER_1, &pwm_config); // configuración PWM
 }
-
 // Función para mover servo a ángulo fijo (30, 60, 80)
 void servo_move_to_angle(int32_t angle) {
     if (angle < SERVO_MIN_DEGREE) angle = SERVO_MIN_DEGREE;
