@@ -1,0 +1,13 @@
+{
+  "idf.espIdfPathWin": "c:/Users/sangs/Documents/v5.3.2/esp-idf",
+  "idf.pythonInstallPath": "c:/Users/sangs/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe",
+  "idf.toolsPathWin": "c:/Users/sangs/.espressif/tools",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.portWin": "COM3",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "idf.flashType": "UART"
+}
